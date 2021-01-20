@@ -7,10 +7,25 @@
   <link rel="apple-touch-icon" href="/icon/192.png">
 </head>
 <body>
-  <h1>4</h1> 
+  <h1>5</h1> 
+  <div id='showData'></div>
   
-  
-  
+  <script>
+    // Create XMLHttpRequest object.
+    var oXHR = new XMLHttpRequest();
+
+    // Initiate request.
+    oXHR.onreadystatechange = reportStatus;
+    oXHR.open("GET", "/druzyna.json", true);  // get json file.
+    oXHR.send();
+
+    function reportStatus() {
+        if (oXHR.readyState == 4) {		// Check if request is complete.
+            Write data to a DIV element.
+            document.getElementById('showData').innerHTML = this.responseText;
+        }
+    }
+</script>
   
   
   
