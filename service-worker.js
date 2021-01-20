@@ -3,7 +3,6 @@ const MY_CACHE = 'cache-name';
 const MY_FILES = [
         '/css/style.css',
         '/js/index.js'
-        '/index.html'
 ];
 
 self.addEventListener('install', function(event) {
