@@ -1,44 +1,46 @@
 <!doctype html>
 <html lang="pl">
 <head>
+  <meta charset="UTF-8">
   <title>Hello World</title>
   <meta name="theme-color" content="#016188">
   <link rel="manifest" href="/manifest.json">
   <link rel="apple-touch-icon" href="/icon/192.png">
+  <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
 </head>
 <body>
   <h1>13</h1> 
-  <div id='showData'></div>
+  <div id='container'></div>
   
-  <div id="id01"></div>
 <script>
-var myArray = [
-  {
-    "display": "JavaScript Tutorial",
-    "url": "https://www.w3schools.com/js/default.asp"
-  },
-  {
-    "display": "HTML Tutorial",
-    "url": "https://www.w3schools.com/html/default.asp"
-  },
-  {
-    "display": "CSS Tutorial",
-    "url": "https://www.w3schools.com/css/default.asp"
-  }
-];
 
-myFunction(myArray);
+$(document).ready(function () { 
+  
+                    // FETCHING DATA FROM JSON FILE 
+                    $.getJSON("druzyna.json",  
+                            function (data) { 
+                        var przycisk = ''; 
+  
+                        // ITERATING THROUGH OBJECTS 
+                        $.each(data, function (key, value) { 
+  
+                            //CONSTRUCTION OF ROWS HAVING 
+                            // DATA FROM JSON OBJECT 
+                            
+                            przycisk += '<div>' +  
+                                value.stanowisko + '</div>'; 
+                        }); 
+                          
+                        //INSERTING ROWS INTO TABLE  
+                        $('#table').append(przycisk); 
+                    }); 
+                });     
 
-function myFunction(arr) {
-  var out = "";
-  var i;
-  for(i = 0; i < arr.length; i++) {
-    out += '<a href="' + arr[i].url + '">' + 
-    arr[i].display + '</a><br>';
-  }
-  document.getElementById("id01").innerHTML = out;
-}
 </script>
+  
+  
+
+
   <script>
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js').then(function () {
