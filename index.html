@@ -9,13 +9,14 @@
   <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
 </head>
 <body>
-  <h1>3</h1> 
+  <h1>1</h1> 
   <div id='container'></div>
   
 <script>
-
+var step;
 $.getJSON( "druzyna.json", function( data ) {
   var items = [];
+  for(step=0; step<2;step++){
   $.each( data, function( key, val ) {
     items.push( "<li id='" + key + "'>" + val + "</li>" );
   });
@@ -24,6 +25,7 @@ $.getJSON( "druzyna.json", function( data ) {
     "class": "my-new-list",
     html: items.join( "" )
   }).appendTo( "body" );
+  }
 });
 
 </script>
