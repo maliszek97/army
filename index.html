@@ -7,7 +7,7 @@
   <link rel="apple-touch-icon" href="/icon/192.png">
 </head>
 <body>
-  <h1>10</h1> 
+  <h1>11</h1> 
   <div id='showData'></div>
   
   <script>
@@ -16,7 +16,7 @@
 
     // Initiate request.
     oXHR.onreadystatechange = reportStatus;
-    oXHR.open("GET", "../../druzyna.json", true);  // get json file.
+    oXHR.open("GET", "/druzyna.json", true);  // get json file.
     oXHR.send();
 
     function reportStatus() {
