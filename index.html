@@ -9,32 +9,22 @@
   <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
 </head>
 <body>
-  <h1>2</h1> 
+  <h1>3</h1> 
   <div id='container'></div>
   
 <script>
 
-$(document).ready(function () { 
-  
-                    // FETCHING DATA FROM JSON FILE 
-                    $.getJSON("druzyna.json",  
-                            function (data) { 
-                        var przycisk = ''; 
-  
-                        // ITERATING THROUGH OBJECTS 
-                        $.each(data, function (key, value) { 
-  
-                            //CONSTRUCTION OF ROWS HAVING 
-                            // DATA FROM JSON OBJECT 
-                            
-                            przycisk += '<p>' +  
-                                value.stanowisko + '</p>'; 
-                        }); 
-                          
-                        //INSERTING ROWS INTO TABLE  
-                        $('#container').append(przycisk); 
-                    }); 
-                });     
+$.getJSON( "druzyna.json", function( data ) {
+  var items = [];
+  $.each( data, function( key, val ) {
+    items.push( "<li id='" + key + "'>" + val + "</li>" );
+  });
+ 
+  $( "<ul/>", {
+    "class": "my-new-list",
+    html: items.join( "" )
+  }).appendTo( "body" );
+});
 
 </script>
   
