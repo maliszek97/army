@@ -9,7 +9,7 @@
   <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
 </head>
 <body>
-  <h1>2</h1> 
+  <h1>4</h1> 
   <table id='table'> 
             <!-- HEADING FORMATION -->
             <tr> 
@@ -20,8 +20,8 @@
             </tr> 
   </table>
   
-  <div id='container'> </div>
-  <div id='cos'> </div>
+  <div id='stanowisko'> </div>
+  <div id='pomocnicy'> </div>
   
 <<script> 
                 $(document).ready(function () { 
@@ -30,12 +30,12 @@
                     $.getJSON("druzyna.json",  
                             function (data) { 
                  
-                          $("#cos").append(data.sessions[0].stanowisko);
+                          $("#stanowisko").append(data.sessions[0].stanowisko);
                         // ITRATING THROUGH OBJECTS 
    
                         $.each(data.sessions[0].pomocnicy, function (key, value) { 
   
-  $("#container").append('<div>' + value.amunicja + </div>);
+  $("#container").append('<div>' + value.amunicja + '</div>');
   
              
                         }); 
