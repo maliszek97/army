@@ -20,28 +20,21 @@
             </tr> 
   </table>
   
-  <div id='stanowisko'> </div>
-  <div id='pomocnicy'> </div>
+  <div>
+    <p class="totalusers">Total Users</p>
+    <p class="Users">Users</p>
+    <ul class="users-list"></ul>
+ </div>
   
 <<script> 
                 $(document).ready(function () { 
   
-                    // FETCHING DATA FROM JSON FILE 
-                    $.getJSON("druzyna.json",  
-                            function (data) { 
-                 
-                          $("#stanowisko").append(data.sessions[0].stanowisko);
-                        // ITRATING THROUGH OBJECTS 
-   
-                        $.each(data.sessions[0].pomocnicy, function (key, value) { 
-  
-  $("#pomocnicy").append('<div>' + value.amunicja + '</div>');
-  
-             
-                        }); 
-                          
-                        
-                    }); 
+                   $.getJSON("druzyna.json",  function(data) {
+  $(".totalusers").append(data.sessions[0].totalusers); 
+  $.each(data.sessions[0].Users, function(i, value){
+    $(".users-list").append('<li>' + value.id + '</li>');
+  })
+});
                 }); 
             </script> 
   
