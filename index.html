@@ -9,7 +9,7 @@
   <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
 </head>
 <body>
-  <h1>3</h1> 
+  <h1>1</h1> 
   <table id='table'> 
             <!-- HEADING FORMATION -->
             <tr> 
@@ -28,11 +28,11 @@
                     // FETCHING DATA FROM JSON FILE 
                     $.getJSON("druzyna.json",  
                             function (data) { 
-                        var student = ''; 
+                        var student = json.druzyna; 
   
                         // ITERATING THROUGH OBJECTS 
    
-                        $.each(data.druzyna[4], function (key, value) { 
+                        $.each(student, function (key, value) { 
   
                             //CONSTRUCTION OF ROWS HAVING 
                             // DATA FROM JSON OBJECT 
