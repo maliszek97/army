@@ -9,7 +9,7 @@
   <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
 </head>
 <body>
-  <h1>1</h1> 
+  <h1>2</h1> 
   <table id='table'> 
             <!-- HEADING FORMATION -->
             <tr> 
@@ -21,6 +21,7 @@
   </table>
   
   <div id='container'> </div>
+  <div id='cos'> </div>
   
 <<script> 
                 $(document).ready(function () { 
@@ -28,25 +29,18 @@
                     // FETCHING DATA FROM JSON FILE 
                     $.getJSON("druzyna.json",  
                             function (data) { 
-                        var student = json.druzyna; 
-  
-                        // ITERATING THROUGH OBJECTS 
+                 
+                          $("#cos").append(data.sessions[0].stanowisko);
+                        // ITRATING THROUGH OBJECTS 
    
-                        $.each(student, function (key, value) { 
+                        $.each(data.sessions[0].pomocnicy, function (key, value) { 
   
-                            //CONSTRUCTION OF ROWS HAVING 
-                            // DATA FROM JSON OBJECT 
-                            student += '<div>'; 
-                            student += '<button type="button">' +  
-                                value.stanowisko + '</button>'; 
+  $("#container").append('<div>' + value.amunicja + </div>);
   
-              
-  
-                            student += '</div>'; 
+             
                         }); 
                           
-                        //INSERTING ROWS INTO TABLE  
-                        $('#container').append(student); 
+                        
                     }); 
                 }); 
             </script> 
