@@ -20,6 +20,8 @@
             </tr> 
   </table>
   
+  <div id='container'> </div>
+  
 <<script> 
                 $(document).ready(function () { 
   
@@ -33,24 +35,24 @@
   
                             //CONSTRUCTION OF ROWS HAVING 
                             // DATA FROM JSON OBJECT 
-                            student += '<tr>'; 
-                            student += '<td>' +  
-                                value.GFGUserName + '</td>'; 
+                            student += '<div>'; 
+                            student += '<div>' +  
+                                value.GFGUserName + '</div>'; 
   
-                            student += '<td>' +  
-                                value.NoOfProblems + '</td>'; 
+                            student += '<div>' +  
+                                value.NoOfProblems + '</div>'; 
   
-                            student += '<td>' +  
-                                value.TotalScore + '</td>'; 
+                            student += '<div>' +  
+                                value.TotalScore + '</div>'; 
   
-                            student += '<td>' +  
-                                value.Articles + '</td>'; 
+                            student += '<div>' +  
+                                value.Articles + '</div>'; 
   
-                            student += '</tr>'; 
+                            student += '</div>'; 
                         }); 
                           
                         //INSERTING ROWS INTO TABLE  
-                        $('#table').append(student); 
+                        $('#container').append(student); 
                     }); 
                 }); 
             </script> 
