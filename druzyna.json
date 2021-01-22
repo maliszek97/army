@@ -4,9 +4,9 @@
            
         "pomocnicy": [
             { 
-                        "amunicja": 6 },
+                        "amunicja": "6" },
             { 
-                        "amunicja": 0 }
+                        "amunicja": "0" }
         ]
     }
   ]}
