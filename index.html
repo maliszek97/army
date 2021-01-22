@@ -9,7 +9,7 @@
   <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
 </head>
 <body>
-  <h1>1</h1> 
+  <h1>2</h1> 
   <table id='table'> 
             <!-- HEADING FORMATION -->
             <tr> 
@@ -31,8 +31,8 @@
                         var student = ''; 
   
                         // ITERATING THROUGH OBJECTS 
-  $.each(data, function (key) { 
-                        $.each(data, function (key, value) { 
+   
+                        $.each(data.druzyna[0], function (key, value) { 
   
                             //CONSTRUCTION OF ROWS HAVING 
                             // DATA FROM JSON OBJECT 
@@ -44,7 +44,6 @@
   
                             student += '</div>'; 
                         }); 
-  }); 
                           
                         //INSERTING ROWS INTO TABLE  
                         $('#container').append(student); 
