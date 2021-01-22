@@ -10,25 +10,50 @@
 </head>
 <body>
   <h1>1</h1> 
-  <div id='container'></div>
+  <table id='table'> 
+            <!-- HEADING FORMATION -->
+            <tr> 
+                <th>GFG UserHandle</th> 
+                <th>Practice Problems</th> 
+                <th>Coding Score</th> 
+                <th>GFG Articles</th> 
+            </tr> 
+  </table>
   
-<script>
-var step;
-$.getJSON( "druzyna.json", function( data ) {
-  var items = [];
-  for(step=0; step<2;step++){
-  $.each( data, function( key, val ) {
-    items.push( "<li id='" + key + "'>" + val + "</li>" );
-  });
- 
-  $( "<ul/>", {
-    "class": "my-new-list",
-    html: items.join( "" )
-  }).appendTo( "body" );
-  }
-});
-
-</script>
+<<script> 
+                $(document).ready(function () { 
+  
+                    // FETCHING DATA FROM JSON FILE 
+                    $.getJSON("druzyna.json",  
+                            function (data) { 
+                        var student = ''; 
+  
+                        // ITERATING THROUGH OBJECTS 
+                        $.each(data, function (key, value) { 
+  
+                            //CONSTRUCTION OF ROWS HAVING 
+                            // DATA FROM JSON OBJECT 
+                            student += '<tr>'; 
+                            student += '<td>' +  
+                                value.GFGUserName + '</td>'; 
+  
+                            student += '<td>' +  
+                                value.NoOfProblems + '</td>'; 
+  
+                            student += '<td>' +  
+                                value.TotalScore + '</td>'; 
+  
+                            student += '<td>' +  
+                                value.Articles + '</td>'; 
+  
+                            student += '</tr>'; 
+                        }); 
+                          
+                        //INSERTING ROWS INTO TABLE  
+                        $('#table').append(student); 
+                    }); 
+                }); 
+            </script> 
   
   
 
