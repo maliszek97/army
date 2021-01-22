@@ -31,25 +31,20 @@
                         var student = ''; 
   
                         // ITERATING THROUGH OBJECTS 
+  $.each(data, function (key) { 
                         $.each(data, function (key, value) { 
   
                             //CONSTRUCTION OF ROWS HAVING 
                             // DATA FROM JSON OBJECT 
                             student += '<div>'; 
                             student += '<button type="button">' +  
-                                value.GFGUserName + '</button>'; 
+                                value.stanowisko + '</button>'; 
   
-                            student += '<button type="button">' +  
-                                value.NoOfProblems + '</button>'; 
-  
-                            student += '<button type="button">' +  
-                                value.TotalScore + '</button>'; 
-  
-                            student += '<button type="button">' +  
-                                value.Articles + '</button>'; 
+              
   
                             student += '</div>'; 
                         }); 
+  }); 
                           
                         //INSERTING ROWS INTO TABLE  
                         $('#container').append(student); 
