@@ -1,9 +1,39 @@
-{"sessions":[
+{"druzyna":[
     {
-        "totalusers":"2",
-        "Users": [
-            { "id": 1, "name": "abc" },
-            { "id": 2, "name": "def" }
+        "stanowisko": "dowodca",
+                "nazwa_operacyjna": "Stary",
+                "dlugosc_sluzby": 10,
+                "natychmiastowa_gotowosc": "tak",
+                "rejon_rozlokowania": "tak",
+                "posiadana_bron": "Grot",
+                "status_medyczny": "zdrowy",
+                "status_zaszczepienia": "zaszczepiony",
+                "id_karty": 2043,
+                "wyposazenie": "pelne",
+                "amunicja": 6,
+        "pomocnicy": [
+            { "stanowisko": "zastepca",
+                        "nazwa_operacyjna": "Stryjek",
+                        "dlugosc_sluzby": 8,
+                        "natychmiastowa_gotowosc": "tak",
+                        "rejon_rozlokowania": "tak",
+                        "posiadana_bron": "Beryl",
+                        "status_medyczny": "zdrowy",
+                        "status_zaszczepienia": "niezaszczepiony",
+                        "id_karty": 4327,
+                        "wyposazenie": "pelne",
+                        "amunicja": 6 },
+            { "stanowisko": "lacznik",
+                        "nazwa_operacyjna": "Biegacz",
+                        "dlugosc_sluzby": 14,
+                        "natychmiastowa_gotowosc": "nie",
+                        "rejon_rozlokowania": "nie",
+                        "posiadana_bron": "brak",
+                        "status_medyczny": "zdrowy",
+                        "status_zaszczepienia": "niezaszczepiony",
+                        "id_karty": 3613,
+                        "wyposazenie": "brak",
+                        "amunicja": 0 }
         ]
     }
   ]}
