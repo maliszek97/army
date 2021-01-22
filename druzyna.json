@@ -1,13 +1,5 @@
-{"bench":[
-{
-  "one": "Singular sensation",
-  "two": "Beady little eyes",
-  "three": "Little birds pitch by my doorstep"
-},
-{
-  "one": "jeje",
-  "two": "loki",
-  "three": "Little"
-}
-]
-}
+[
+  {"GFGUserName": "1", "NoOfProblems": "120", "TotalScore": "100", "Articles":"30"},
+  {"GFGUserName": "1", "NoOfProblems": "120", "TotalScore": "100", "Articles":"20"},
+  {"GFGUserName": "2", "NoOfProblems": "120", "TotalScore": "100", "Articles":"30"}
+]  
