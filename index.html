@@ -9,19 +9,10 @@
   <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
 </head>
 <body>
-  <h1>1</h1> 
-  <table id='table'> 
-            <!-- HEADING FORMATION -->
-            <tr> 
-                <th>GFG UserHandle</th> 
-                <th>Practice Problems</th> 
-                <th>Coding Score</th> 
-                <th>GFG Articles</th> 
-            </tr> 
-  </table>
+  <h1>2</h1> 
   
   <div>
-    <p class="totalusers">Total Users</p>
+    <div class="soldiers">Total Users</p>
     <p class="Users">Users</p>
     <ul class="users-list"></ul>
  </div>
@@ -31,7 +22,10 @@
   
                    $.getJSON("druzyna.json",  function(data) {
 
-  $(".totalusers").append(data.druzyna[0].stanowisko + '<br />' + data.druzyna[1].stanowisko); 
+  $(".soldiers").append('<div>' + data.druzyna[0].stanowisko + '</div>' + '<div>' + data.druzyna[1].stanowisko + '</div>' + 
+  '<div>' + data.druzyna[2].stanowisko + '</div>' + '<div>' + data.druzyna[3].stanowisko + '</div>' + '<div>' + data.druzyna[4].stanowisko + '</div>' + 
+  '<div>' + data.druzyna[5].stanowisko + '</div>' + '<div>' + data.druzyna[6].stanowisko + '</div>' + '<div>' + data.druzyna[7].stanowisko + '</div>' + 
+  '<div>' + data.druzyna[8].stanowisko + '</div>' + '<div>' + data.druzyna[9].stanowisko + '</div>'); 
 
   $.each(data.druzyna[0].pomocnicy, function(i, value){
     $(".users-list").append('<li>' + value.amunicja + '</li>');
