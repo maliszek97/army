@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
 </head>
 <body>
-  <h1>1</h1> 
+  <h1>2</h1> 
   
   <div>
     <div class="soldiers">Total Users</p>
@@ -19,17 +19,19 @@
     <ul class="users-list"></ul>
  </div>
   
+  <div class="ui animated fade button" tabindex="0">
+  <div class="visible content">Sign-up for a Pro account</div>
+  <div class="hidden content">
+  </div>
+</div>
+  
 <<script> 
                 $(document).ready(function () { 
   
                    $.getJSON("druzyna.json",  function(data) {
-
-  $(".soldiers").append('<div class="ui animated fade button" tabindex="0">
-  <div class="visible content">Sprawdz status</div>
-  <div class="hidden content">' +
-    data.druzyna[0].stanowisko +
-  '</div>
-</div>' + '<div>' + data.druzyna[1].stanowisko + '</div>' + 
+  
+  $(".hidden").append(data.druzyna[0].stanowisko);
+  $(".soldiers").append('<div>' + data.druzyna[1].stanowisko + '</div>' + 
   '<div>' + data.druzyna[2].stanowisko + '</div>' + '<div>' + data.druzyna[3].stanowisko + '</div>' + '<div>' + data.druzyna[4].stanowisko + '</div>' + 
   '<div>' + data.druzyna[5].stanowisko + '</div>' + '<div>' + data.druzyna[6].stanowisko + '</div>' + '<div>' + data.druzyna[7].stanowisko + '</div>' + 
   '<div>' + data.druzyna[8].stanowisko + '</div>' + '<div>' + data.druzyna[9].stanowisko + '</div>'); 
