@@ -9,7 +9,7 @@
   <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
 </head>
 <body>
-  <h1>2</h1> 
+  <h1>3</h1> 
   <table id='table'> 
             <!-- HEADING FORMATION -->
             <tr> 
@@ -30,8 +30,8 @@
                 $(document).ready(function () { 
   
                    $.getJSON("druzyna.json",  function(data) {
-  $(".totalusers").append(data.sessions[0].stanowisko); 
-  $.each(data.sessions[0].pomocnicy, function(i, value){
+  $(".totalusers").append(data.druzyna[0].stanowisko); 
+  $.each(data.druzyna[0].pomocnicy, function(i, value){
     $(".users-list").append('<li>' + value.amunicja + '</li>');
   })
 });
