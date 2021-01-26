@@ -15,14 +15,20 @@
   <h1>2</h1> 
   
   
-  <div class="container">
+<div class="container">
     <div class="soldiers">Total Users</div>
     <p class="Users">Users</p>
     <ul class="users-list"></ul>
   <div class="row">
-   <div class="col-6 col-md-4">
-  <button type="button" class="btn btn-primary soldier1"></button>
-</div>
+      <div class="card" style="width: 18rem;">
+            <img class="card-img-top soldier1img" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary soldier1">Go somewhere</a>
+            </div>
+      </div>
+      
     <div class="col-6 col-md-4"> 
    <div class="ui animated fade button" tabindex="0">
   <div class="visible content">Sprawdz status</div>
@@ -95,6 +101,7 @@
                    $.getJSON("druzyna.json",  function(data) {
   
   $(".soldier1").append(data.druzyna[0].stanowisko);
+  $(".soldier1img").attr("src", data.druzyna[0].image);                      
   $(".soldier2").append(data.druzyna[1].stanowisko);
   $(".soldier3").append(data.druzyna[2].stanowisko); 
   $(".soldier4").append(data.druzyna[3].stanowisko); 
