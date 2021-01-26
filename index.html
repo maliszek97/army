@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-  <h1>2</h1> 
+  <h1>3</h1> 
   
   <div class="abc"></div>
 <div class="container">
@@ -101,7 +101,7 @@
   
                    $.getJSON("druzyna.json",  function(data) {
   
-  $(".abc").append(data.druzyna[0].stanowisko);
+  $(".soldier1").append(data.druzyna[0].stanowisko);
   $(".soldier1img").attr("src", data.druzyna[0].image);                      
   $(".soldier2").append(data.druzyna[1].stanowisko);
   $(".soldier3").append(data.druzyna[2].stanowisko); 
