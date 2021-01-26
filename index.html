@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Hello World</title>
   <meta name="theme-color" content="#016188">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
   <link rel="manifest" href="/manifest.json">
   <link rel="apple-touch-icon" href="/icon/192.png">
   <script src= "https://code.jquery.com/jquery-3.5.1.js"> </script> 
@@ -15,7 +14,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <h1>2</h1> 
+  <h1>1</h1> 
   
 <div class="container">
     <div class="soldiers">Total Users</div>
@@ -42,8 +41,7 @@
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Modal Header</h4>
         </div>
-        <div class="modal-body">
-          <p>Some text in the modal.</p>
+        <div class="modal-body dane1">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -139,8 +137,8 @@
   $(".soldier9").append(data.druzyna[8].stanowisko); 
   $(".soldier10").append(data.druzyna[9].stanowisko); 
 
-  $.each(data.druzyna[0].pomocnicy, function(i, value){
-    $(".users-list").append('<li>' + value.amunicja + '</li>');
+  $.each(data.druzyna[0], function(i, value){
+    $(".dane1").append('<p>' + value.nazwa_operacyjna + '</p>' + '<p>' + value.dlugosc_sluzby + '</p>' + '<p>' + value.natychmiastowa_gotowosc + '</p>');
   })
 });
                 }); 
