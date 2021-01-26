@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-  <h1>1</h1> 
+  <h1>2</h1> 
   
 <div class="container">
     <div class="soldiers">Total Users</div>
@@ -24,9 +24,31 @@
             <img class="card-img-top soldier1img" src="" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title soldier1"></h5>
-                <a href="#" class="btn btn-primary">Zobacz informacje</a>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#infosoldier1">Zobacz informacje</a>
             </div>
       </div>
+      
+      <div class="modal fade" id="infosoldier1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      
       
     <div class="col-6 col-md-4"> 
    <div class="ui animated fade button" tabindex="0">
