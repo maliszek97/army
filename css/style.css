@@ -21,21 +21,25 @@ img{max-width: 100%;}
 @media screen and (min-width: 992px){
 .card {
     width: 25%;
+    display: inline-block;
     }
 }
 @media screen and (min-width: 768px){
 .card {
     width: 33.3%;
+    display: inline-block;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 767px){
 .card {
     width: 50% !important;
+    display: inline-block;
     }
 }
 @media screen and (max-width: 479px){
 .card {
     width: 100% !important;
+    display: inline-block;
     }
  .karta{
      padding:40px;
