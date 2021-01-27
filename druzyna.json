@@ -53,7 +53,7 @@
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 1426,
                 "amunicja": 4,
-                "image": "https://i.wpimg.pl/2000x0/d.wpimg.pl/1360009998-764845042/saper.jpg",    
+                "image": "https://i.wpimg.pl/2000x0/d.wpimg.pl/1360009998-764845042/saper.jpg"  
               
                     
                 },
@@ -69,7 +69,7 @@
                 "status_zaszczepienia": "niezaszczepiony",
                 "id_karty": 3184,
                 "amunicja": 8,
-                "image": "https://i.iplsc.com/zeby-zostac-snajperem-trzeba-miec-specjalne-predyspozycje/0003S9SIMAKX3MWM-C122-F4.jpg",
+                "image": "https://i.iplsc.com/zeby-zostac-snajperem-trzeba-miec-specjalne-predyspozycje/0003S9SIMAKX3MWM-C122-F4.jpg"
                 
                 },
             
@@ -84,7 +84,7 @@
                 "status_zaszczepienia": "niezaszczepiony",
                 "id_karty": 6183,
                 "amunicja": 7,
-                "image": "https://lh3.googleusercontent.com/proxy/L3zr1kgt-q5Nm2bet28BLgjU0LKAZsDPW-9oO5W7jySFHi7V5-oQFi-hFTglREnTE9zNR7QPAsbp-WJyV0LKcIwjfEfvd2YnsWZGK32LrveU",
+                "image": "https://lh3.googleusercontent.com/proxy/L3zr1kgt-q5Nm2bet28BLgjU0LKAZsDPW-9oO5W7jySFHi7V5-oQFi-hFTglREnTE9zNR7QPAsbp-WJyV0LKcIwjfEfvd2YnsWZGK32LrveU"
                 
                 },
             
@@ -99,7 +99,7 @@
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 9416,
                 "amunicja": 3,
-                "image": "https://lh3.googleusercontent.com/proxy/ypS66l-zFGBDGpA35xCoDPUnXJq_0iYfsWchSzZY1yy6SbGWnR1BabrJ0yzansiaABJ-elrPp8834-SucDvujcMoXhAF2Kz906XA7f4_SWRL", 
+                "image": "https://lh3.googleusercontent.com/proxy/ypS66l-zFGBDGpA35xCoDPUnXJq_0iYfsWchSzZY1yy6SbGWnR1BabrJ0yzansiaABJ-elrPp8834-SucDvujcMoXhAF2Kz906XA7f4_SWRL" 
                
                 },
             
@@ -114,7 +114,7 @@
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 5722,
                 "amunicja": 14,
-                "image": "https://www.milmag.pl/files/news/photos/0/12/wp-ukm-2000.jpg",
+                "image": "https://www.milmag.pl/files/news/photos/0/12/wp-ukm-2000.jpg"
                
                 },
             
@@ -129,7 +129,7 @@
                 "status_zaszczepienia": "niezaszczepiony",
                 "id_karty": 3777,
                 "amunicja": 5,
-                "image": "https://cdn.dvidshub.net/media/thumbs/photos/0809/116713/1000x630_q95.jpg",
+                "image": "https://cdn.dvidshub.net/media/thumbs/photos/0809/116713/1000x630_q95.jpg"
                
                 },
              
@@ -144,7 +144,7 @@
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 7755,
                 "amunicja": 10,
-                "image": "https://lh3.googleusercontent.com/proxy/PHY1TYB7KH0U6haKRc9QmRaksl-Rxw_AiD5OwdtTTUlz_95_ukcUepcJAuKX-xpnlx-2iJFLXNeQ00XPnCcwLDQ3apFxwQhQLwVJhGt5omVR",
+                "image": "https://lh3.googleusercontent.com/proxy/PHY1TYB7KH0U6haKRc9QmRaksl-Rxw_AiD5OwdtTTUlz_95_ukcUepcJAuKX-xpnlx-2iJFLXNeQ00XPnCcwLDQ3apFxwQhQLwVJhGt5omVR"
                 
                 },
             
@@ -159,7 +159,7 @@
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 1536,
                 "amunicja": "brak",
-                "image": "https://d-art.ppstatic.pl/kadry/k/r/1/7e/ab/56e2a97e0479c_o_full.jpg",
+                "image": "https://d-art.ppstatic.pl/kadry/k/r/1/7e/ab/56e2a97e0479c_o_full.jpg"
                     
                 },
             
@@ -174,7 +174,7 @@
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 5523,
                 "amunicja": "4",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykHcu8yKle8_2KfboNjpD2rDe_zZJdLXqqw&usqp=CAU",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykHcu8yKle8_2KfboNjpD2rDe_zZJdLXqqw&usqp=CAU"
                  
                 }
         ]
