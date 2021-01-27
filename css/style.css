@@ -38,6 +38,6 @@ img{max-width: 100%;}
 .collapse.in{text-align: -webkit-center;}
 .list-group{text-align: center;}
 .card-body{text-align: center;}
-.card-title{margin-top: 15px;}
-h5{font-size: 32px;}
+.card-title{margin-top: 15px !important;}
+h5{font-size: 32px !important;}
 
