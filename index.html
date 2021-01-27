@@ -18,13 +18,10 @@
   <h1>1</h1> 
   
 <div class="container">
-    <div class="soldiers">Total Users</div>
-    <p class="Users">Users</p>
-    <ul class="users-list"></ul>
-    
     <div class="row">
+        <div class="poj">
         <div class="card karta">
-            <img class="card-img-top soldier1img" src="" alt="Card image cap">
+            <img class="card-img-top soldier1img" src="" alt="zdjecie dowódcy">
             <div class="card-body">
                 <h5 class="card-title soldier1"></h5>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infosoldier1">Zobacz informacje</button>
@@ -70,6 +67,158 @@
                 </div>
             </div>
         </div>
+        </div>
+        
+        <div class="poj">
+        <div class="card karta">
+            <img class="card-img-top soldier2img" src="" alt="zdjęcie sapera">
+            <div class="card-body">
+                <h5 class="card-title soldier2"></h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infosoldier2">Zobacz informacje</button>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="infosoldier2" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title soldier2"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="card-img-top soldier2img" src="" alt="saper">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" id="s21">Nazwa operacyjna: </li>
+                            <li class="list-group-item" id="s22">Długość służby w latach: </li>
+                            <li class="list-group-item" id="s23">Czy gotowy do powołania w trybie natychmiastowym? </li>
+                            <li class="list-group-item" id="s24">Czy jest w rejonie rozlokowania? </li>
+                            <li class="list-group-item" id="s25">Posiadana broń: </li>
+                            <li class="list-group-item" id="s26">Status medyczny: </li>
+                            <li class="list-group-item" id="s27">Status zaszczepienia: </li>
+                            <li class="list-group-item" id="s28">ID karty: </li>
+                            <li class="list-group-item" id="s29">Ilość posiadanych magazynków: </li>
+                        </ul> 
+                        <p class="przycisk">
+                            <a class="btn btn-primary" data-toggle="collapse" href="#sadres2" role="button" aria-expanded="false" aria-controls="collapseExample">Adres</a>
+                        </p>
+                        <div class="collapse" id="sadres2">
+                            <div class="card card-body adres2"></div>
+                        </div>
+                        <p class="przycisk">
+                            <a class="btn btn-primary" data-toggle="collapse" href="#swyposazenie2" role="button" aria-expanded="false" aria-controls="collapseExample">Wyposażenie</a>
+                        </p>
+                        <div class="collapse" id="swyposazenie2">
+                            <div class="card card-body wyposazenie2"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="poj">
+        <div class="card karta">
+            <img class="card-img-top soldier3img" src="" alt="zdjęcie strzelca">
+            <div class="card-body">
+                <h5 class="card-title soldier3"></h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infosoldier3">Zobacz informacje</button>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="infosoldier3" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title soldier3"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="card-img-top soldier3img" src="" alt="strzelec">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" id="s31">Nazwa operacyjna: </li>
+                            <li class="list-group-item" id="s32">Długość służby w latach: </li>
+                            <li class="list-group-item" id="s33">Czy gotowy do powołania w trybie natychmiastowym? </li>
+                            <li class="list-group-item" id="s34">Czy jest w rejonie rozlokowania? </li>
+                            <li class="list-group-item" id="s35">Posiadana broń: </li>
+                            <li class="list-group-item" id="s36">Status medyczny: </li>
+                            <li class="list-group-item" id="s37">Status zaszczepienia: </li>
+                            <li class="list-group-item" id="s38">ID karty: </li>
+                            <li class="list-group-item" id="s39">Ilość posiadanych magazynków: </li>
+                        </ul> 
+                        <p class="przycisk">
+                            <a class="btn btn-primary" data-toggle="collapse" href="#sadres3" role="button" aria-expanded="false" aria-controls="collapseExample">Adres</a>
+                        </p>
+                        <div class="collapse" id="sadres3">
+                            <div class="card card-body adres3"></div>
+                        </div>
+                        <p class="przycisk">
+                            <a class="btn btn-primary" data-toggle="collapse" href="#swyposazenie3" role="button" aria-expanded="false" aria-controls="collapseExample">Wyposażenie</a>
+                        </p>
+                        <div class="collapse" id="swyposazenie3">
+                            <div class="card card-body wyposazenie3"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="poj">
+        <div class="card karta">
+            <img class="card-img-top soldier4img" src="" alt="zdjęcie radiotelefonisty">
+            <div class="card-body">
+                <h5 class="card-title soldier4"></h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#infosoldier4">Zobacz informacje</button>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="infosoldier4" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title soldier4"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="card-img-top soldier4img" src="" alt="radiotelefonista">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" id="s41">Nazwa operacyjna: </li>
+                            <li class="list-group-item" id="s42">Długość służby w latach: </li>
+                            <li class="list-group-item" id="s43">Czy gotowy do powołania w trybie natychmiastowym? </li>
+                            <li class="list-group-item" id="s44">Czy jest w rejonie rozlokowania? </li>
+                            <li class="list-group-item" id="s45">Posiadana broń: </li>
+                            <li class="list-group-item" id="s46">Status medyczny: </li>
+                            <li class="list-group-item" id="s47">Status zaszczepienia: </li>
+                            <li class="list-group-item" id="s48">ID karty: </li>
+                            <li class="list-group-item" id="s49">Ilość posiadanych magazynków: </li>
+                        </ul> 
+                        <p class="przycisk">
+                            <a class="btn btn-primary" data-toggle="collapse" href="#sadres4" role="button" aria-expanded="false" aria-controls="collapseExample">Adres</a>
+                        </p>
+                        <div class="collapse" id="sadres4">
+                            <div class="card card-body adres4"></div>
+                        </div>
+                        <p class="przycisk">
+                            <a class="btn btn-primary" data-toggle="collapse" href="#swyposazenie4" role="button" aria-expanded="false" aria-controls="collapseExample">Wyposażenie</a>
+                        </p>
+                        <div class="collapse" id="swyposazenie4">
+                            <div class="card card-body wyposazenie4"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
     </div>
     
 </div>
