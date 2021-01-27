@@ -2,7 +2,7 @@
   $(function(){
                 $(document).ready(function () { 
   
-                   $.getJSON("druzyna.json",  function(data) {
+                   $.getJSON("https://my-json-server.typicode.com/maliszek97/json-server/db",  function(data) {
   
   $(".soldier1").append(data.druzyna[0].stanowisko);
   $(".soldier1img").attr("src", data.druzyna[0].image);
