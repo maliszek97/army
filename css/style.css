@@ -39,7 +39,9 @@ img{max-width: 100%;}
     }
  .karta{
      padding:40px;
-     border:none;
+     border-top:none;
+     border-right:none;
+     border-left:none;
 }
 
 .przycisk{text-align: center;}
