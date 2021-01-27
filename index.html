@@ -15,7 +15,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <h1>1</h1> 
+  <h1>2</h1> 
   
 <div class="container">
     <div class="soldiers">Total Users</div>
@@ -60,7 +60,7 @@
                         <p class="przycisk">
                             <a class="btn btn-primary" data-toggle="collapse" href="#swyposazenie1" role="button" aria-expanded="false" aria-controls="collapseExample">Wyposażenie</a>
                         </p>
-                        <div class="collapse" id="swyposazenie">
+                        <div class="collapse" id="swyposazenie1">
                             <div class="card card-body wyposazenie1"></div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@
   $(".adres1").append(data.druzyna[0].adres.ulica);                       
   $.each(data.druzyna[0].adres, function(i, value){
     $(".adres1").append('<p>ul. ' + value.ulica + ' ' + value.numer_bloku + '/' + value.numer_mieszkania + '<br />' + value.kod_pocztowy + ' ' + value.miejscowosc +'<br />' +
-                       '<strong>Koordynaty:</strong><br />' + value.dlugosc_geograficzna + ', ' + value.szerokosc_geograficzna + '</p>');
+                       '<strong>Koordynaty:</strong><br />' + value.dlugosc_geograficzna + ', ' + value.szerokosc_geograficzna + '<br /></p>');
   })
   $.each(data.druzyna[0].wyposazenie, function(i, value){
     $(".wyposazenie1").append('<p>Maska przeciwgazowa --- ' + value.maska_przeciwgazowa + '</p>' + '<p>Kamizelka --- ' + value.kamizelka + '</p>' + 
