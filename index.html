@@ -151,7 +151,9 @@
   $("#s18").append(data.druzyna[0].id_karty);
   $("#s19").append(data.druzyna[0].amunicja);
   $(".adres1").append(data.druzyna[0].adres.ulica);                       
-                       
+    $.each(data.druzyna[0].adres, function(i, value){
+    $(".adres1").append('<li>' + value.ulica + '</li>');
+  })                     
                        
                        
   $(".soldier2").append(data.druzyna[1].stanowisko);
