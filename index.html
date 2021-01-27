@@ -15,7 +15,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <h1>1</h1> 
+  <h1>2</h1> 
   
 <div class="container">
     <div class="soldiers">Total Users</div>
@@ -152,7 +152,8 @@
   $("#s19").append(data.druzyna[0].amunicja);
   $(".adres1").append(data.druzyna[0].adres.ulica);                       
     $.each(data.druzyna[0].adres, function(i, value){
-    $(".adres1").append('<li>' + value.ulica + '</li>');
+    $(".adres1").append('<p>ul. ' + value.ulica + ' ' + value.numer_bloku + '/' + value.numer_mieszkania + '<br />' + value.kod_pocztowy + ' ' + value.miejscowosc +'<br />' +
+                       'Koordynaty<br />' + value.dlugosc_geograficzna + ', ' + value.szerokosc_geograficzna);
   })                     
                        
                        
