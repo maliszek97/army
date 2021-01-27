@@ -1,4 +1,3 @@
-<script> 
                 $(document).ready(function () { 
   
                    $.getJSON("https://my-json-server.typicode.com/maliszek97/json-server/db",  function(data) {
@@ -39,5 +38,4 @@
     $(".users-list").append('<li>' + value.data.druzyna[0].amunicja + '</li>');
   })
 });
-                }); 
-</script> 
+                });  
