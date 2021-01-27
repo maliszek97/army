@@ -1,4 +1,5 @@
 <script> 
+  $(function(){
                 $(document).ready(function () { 
   
                    $.getJSON("druzyna.json",  function(data) {
@@ -40,4 +41,5 @@
   })
 });
                 }); 
+  });
 </script> 
