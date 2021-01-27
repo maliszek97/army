@@ -1,5 +1,4 @@
 <script> 
-  $(function(){
                 $(document).ready(function () { 
   
                    $.getJSON("https://my-json-server.typicode.com/maliszek97/json-server/db",  function(data) {
@@ -41,5 +40,4 @@
   })
 });
                 }); 
-  });
 </script> 
