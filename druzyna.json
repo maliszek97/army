@@ -23,9 +23,7 @@
                         "miejscowosc": "Warszawa",
                         "dlugosc geograficzna": "21.5555",
                         "szerokosc geograficzna": "77.2142",
-                        }
-                    ],
-                "wyposazenie":[    
+                        },    
                         {
                         "maska przeciwgazowa": "tak",
                         "kamizelka": "tak",
