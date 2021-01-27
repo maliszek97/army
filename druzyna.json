@@ -14,7 +14,7 @@
                 "id_karty": 2043,
                 "amunicja": 6,
                 "image": "https://jwk.wp.mil.pl/u/comando.jpg",    
-                "adres":    
+                "adres":[    
                         {
                         "ulica": "Broniewicza",
                         "numer bloku": "16",
@@ -23,8 +23,9 @@
                         "miejscowosc": "Warszawa",
                         "dlugosc geograficzna": "21.5555",
                         "szerokosc geograficzna": "77.2142",
-                        },
-                "wyposazenie":    
+                        }
+                    ],
+                "wyposazenie":[    
                         {
                         "maska przeciwgazowa": "tak",
                         "kamizelka": "tak",
@@ -37,8 +38,8 @@
                         "plecak medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "tak"
-                        }
-                      
+                        },
+                    ]  
                 },    
             
             
