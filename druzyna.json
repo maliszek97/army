@@ -56,7 +56,7 @@
                 "id_karty": 1426,
                 "amunicja": 4,
                 "image": "https://i.wpimg.pl/2000x0/d.wpimg.pl/1360009998-764845042/saper.jpg",    
-                "adres":    
+                "adres":[    
                         {
                         "ulica": "Ochockiego",
                         "numer bloku": "2",
@@ -65,8 +65,9 @@
                         "miejscowosc": "Radzymin",
                         "dlugosc geograficzna": "21.5555",
                         "szerokosc geograficzna": "77.2142",
-                        },
-                "wyposazenie":    
+                        }
+						],
+                "wyposazenie":[    
                         {
                         "maska przeciwgazowa": "tak",
                         "kamizelka": "tak",
@@ -80,7 +81,7 @@
                         "okulary": "tak",
                         "lornetka": "nie"
                         }
-                    
+                    ]
                 },
             
                 {
@@ -95,7 +96,7 @@
                 "id_karty": 3184,
                 "amunicja": 8,
                 "image": "https://i.iplsc.com/zeby-zostac-snajperem-trzeba-miec-specjalne-predyspozycje/0003S9SIMAKX3MWM-C122-F4.jpg",
-                "adres":    
+                "adres":[    
                         {
                         "ulica": "Misiowa",
                         "numer bloku": "24",
@@ -104,8 +105,9 @@
                         "miejscowosc": "Sieradz",
                         "dlugosc geograficzna": "74.8714",
                         "szerokosc geograficzna": "71.2545",
-                        },
-                "wyposazenie":    
+                        }
+						],
+                "wyposazenie":[    
                         {
                         "maska przeciwgazowa": "nie",
                         "kamizelka": "tak",
@@ -118,7 +120,7 @@
                         "plecak medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "tak"
-                        }    
+                        }]    
                 },
             
                 {
@@ -133,7 +135,7 @@
                 "id_karty": 6183,
                 "amunicja": 7,
                 "image": "https://lh3.googleusercontent.com/proxy/L3zr1kgt-q5Nm2bet28BLgjU0LKAZsDPW-9oO5W7jySFHi7V5-oQFi-hFTglREnTE9zNR7QPAsbp-WJyV0LKcIwjfEfvd2YnsWZGK32LrveU",
-                "adres":    
+                "adres":[    
                         {
                         "ulica": "Sloneczna",
                         "numer bloku": "1",
@@ -142,8 +144,8 @@
                         "miejscowosc": "Radzymin",
                         "dlugosc geograficzna": "74.2145",
                         "szerokosc geograficzna": "71.5412",
-                        },
-                "wyposazenie":    
+                        }],
+                "wyposazenie":[    
                         {
                         "maska przeciwgazowa": "tak",
                         "kamizelka": "tak",
@@ -156,7 +158,7 @@
                         "plecak medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "nie"
-                        }        
+                        }]        
                 },
             
                 {
@@ -171,7 +173,7 @@
                 "id_karty": 9416,
                 "amunicja": 3,
                 "image": "https://lh3.googleusercontent.com/proxy/ypS66l-zFGBDGpA35xCoDPUnXJq_0iYfsWchSzZY1yy6SbGWnR1BabrJ0yzansiaABJ-elrPp8834-SucDvujcMoXhAF2Kz906XA7f4_SWRL", 
-                "adres":    
+                "adres":[    
                         {
                         "ulica": "Waszyngotna",
                         "numer bloku": "16",
@@ -180,8 +182,8 @@
                         "miejscowosc": "Radom",
                         "dlugosc geograficzna": "74.8788",
                         "szerokosc geograficzna": "71.5453",
-                        },
-                "wyposazenie":    
+                        }],
+                "wyposazenie":[    
                         {
                         "maska przeciwgazowa": "tak",
                         "kamizelka": "tak",
@@ -194,7 +196,7 @@
                         "plecak medyczny": "tak",
                         "okulary": "tak",
                         "lornetka": "nie"
-                        }           
+                        }]           
                 },
             
                 {
@@ -209,7 +211,7 @@
                 "id_karty": 5722,
                 "amunicja": 14,
                 "image": "https://www.milmag.pl/files/news/photos/0/12/wp-ukm-2000.jpg",
-                "adres":    
+                "adres":[    
                         {
                         "ulica": "Wilimowskiego",
                         "numer bloku": "19",
@@ -218,8 +220,8 @@
                         "miejscowosc": "Warszawa",
                         "dlugosc geograficzna": "74.4133",
                         "szerokosc geograficzna": "71.5631",
-                        },
-                "wyposazenie":    
+                        }],
+                "wyposazenie":[    
                         {
                         "maska przeciwgazowa": "nie",
                         "kamizelka": "tak",
@@ -232,7 +234,7 @@
                         "plecak medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "tak"
-                        }      
+                        }]      
                 },
             
                 {
@@ -247,7 +249,7 @@
                 "id_karty": 3777,
                 "amunicja": 5,
                 "image": "https://cdn.dvidshub.net/media/thumbs/photos/0809/116713/1000x630_q95.jpg",
-                "adres":    
+                "adres":[    
                         {
                         "ulica": "Antoniuka",
                         "numer bloku": "87",
@@ -256,8 +258,8 @@
                         "miejscowosc": "Wejcherowo",
                         "dlugosc geograficzna": "74.5489",
                         "szerokosc geograficzna": "71.4125",
-                        },
-                "wyposazenie":    
+                        }],
+                "wyposazenie":[    
                         {
                         "maska przeciwgazowa": "nie",
                         "kamizelka": "tak",
@@ -270,7 +272,7 @@
                         "plecak medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "tak"
-                        }    
+                        }]    
                 },
              
                 {
@@ -285,7 +287,7 @@
                 "id_karty": 7755,
                 "amunicja": 10,
                 "image": "https://lh3.googleusercontent.com/proxy/PHY1TYB7KH0U6haKRc9QmRaksl-Rxw_AiD5OwdtTTUlz_95_ukcUepcJAuKX-xpnlx-2iJFLXNeQ00XPnCcwLDQ3apFxwQhQLwVJhGt5omVR",
-                "adres":    
+                "adres":[    
                         {
                         "ulica": "Kopernika",
                         "numer bloku": "2",
@@ -294,8 +296,8 @@
                         "miejscowosc": "Bialystok",
                         "dlugosc geograficzna": "77.5321",
                         "szerokosc geograficzna": "87.6512",
-                        },
-                "wyposazenie":    
+                        }],
+                "wyposazenie":[    
                         {
                         "maska przeciwgazowa": "nie",
                         "kamizelka": "nie",
@@ -308,7 +310,7 @@
                         "plecak medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "nie"
-                        }      
+                        }]      
                 },
             
                 {
@@ -323,7 +325,7 @@
                 "id_karty": 1536,
                 "amunicja": "brak",
                 "image": "https://d-art.ppstatic.pl/kadry/k/r/1/7e/ab/56e2a97e0479c_o_full.jpg",
-                "adres":    
+                "adres":[    
                         {
                         "ulica": "Petraszki",
                         "numer bloku": "98",
@@ -332,8 +334,8 @@
                         "miejscowosc": "Warszawa",
                         "dlugosc geograficzna": "76.5882",
                         "szerokosc geograficzna": "87.2145",
-                        },
-                "wyposazenie":    
+                        }],
+                "wyposazenie":[    
                         {
                         "maska przeciwgazowa": "nie",
                         "kamizelka": "nie",
@@ -346,7 +348,7 @@
                         "plecak medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "nie"
-                        }        
+                        }]        
                 },
             
                 {
@@ -361,7 +363,7 @@
                 "id_karty": 5523,
                 "amunicja": "4",
                 "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykHcu8yKle8_2KfboNjpD2rDe_zZJdLXqqw&usqp=CAU",
-                "adres":    
+                "adres":[    
                         {
                         "ulica": "Roslinna",
                         "numer bloku": "8",
@@ -370,8 +372,8 @@
                         "miejscowosc": "Warszawa",
                         "dlugosc geograficzna": "76.5742",
                         "szerokosc geograficzna": "87.4963",
-                        },
-                "wyposazenie":    
+                        }],
+                "wyposazenie":[    
                         {
                         "maska przeciwgazowa": "nie",
                         "kamizelka": "nie",
@@ -384,7 +386,7 @@
                         "plecak medyczny": "nie",
                         "okulary": "nie",
                         "lornetka": "nie"
-                        }      
+                        }]      
                 }
         ]
 }
