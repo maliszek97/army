@@ -1,8 +1,7 @@
 {
     "druzyna": 
         [
-		{
-		"soldier1":
+            
                 {
                 "stanowisko": "dowodca",
                 "nazwa_operacyjna": "Stary",
@@ -13,34 +12,38 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 2043,
+                "wyposazenie": "pelne",
                 "amunicja": 6,
                 "image": "https://jwk.wp.mil.pl/u/comando.jpg",    
-                "adres":[    
+                "pomocnicy":[     
                         {
-                        "ulica": "Broniewicza",
-                        "numer bloku": "16",
-                        "numer mieszkania": "42",
-                        "kod pocztowy": "16-224",
-                        "miejscowosc": "Warszawa",
-                        "dlugosc geograficzna": "21.5555",
-                        "szerokosc geograficzna": "77.2142",
-                        }
-                    ],
-                "wyposazenie":[    
+                        "stanowisko": "zastepca",
+                        "nazwa_operacyjna": "Stryjek",
+                        "dlugosc_sluzby": 8,
+                        "natychmiastowa_gotowosc": "tak",
+                        "rejon_rozlokowania": "tak",
+                        "posiadana_bron": "Beryl",
+                        "status_medyczny": "zdrowy",
+                        "status_zaszczepienia": "niezaszczepiony",
+                        "id_karty": 4327,
+                        "wyposazenie": "pelne",
+                        "amunicja": 6
+                        },
+    
                         {
-                        "maska przeciwgazowa": "tak",
-                        "kamizelka": "tak",
-                        "helm": "tak",
-                        "noktowizor": "tak",
-                        "calownik laserowy": "tak",
-                        "hws": "tak",
-                        "latarka": "tak",
-                        "lopatka": "nie",
-                        "plecak medyczny": "nie",
-                        "okulary": "tak",
-                        "lornetka": "tak"
+                        "stanowisko": "lacznik",
+                        "nazwa_operacyjna": "Biegacz",
+                        "dlugosc_sluzby": 14,
+                        "natychmiastowa_gotowosc": "nie",
+                        "rejon_rozlokowania": "nie",
+                        "posiadana_bron": "brak",
+                        "status_medyczny": "zdrowy",
+                        "status_zaszczepienia": "niezaszczepiony",
+                        "id_karty": 3613,
+                        "wyposazenie": "brak",
+                        "amunicja": 0
                         }
-                    ]  }
+                  ]    
                 },    
             
             
@@ -55,34 +58,8 @@
                 "status_medyczny": "chory",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 1426,
-                "amunicja": 4,
-                "image": "https://i.wpimg.pl/2000x0/d.wpimg.pl/1360009998-764845042/saper.jpg",    
-                "adres":[    
-                        {
-                        "ulica": "Ochockiego",
-                        "numer bloku": "2",
-                        "numer mieszkania": "41",
-                        "kod pocztowy": "16-888",
-                        "miejscowosc": "Radzymin",
-                        "dlugosc geograficzna": "21.5555",
-                        "szerokosc geograficzna": "77.2142",
-                        }
-						],
-                "wyposazenie":[    
-                        {
-                        "maska przeciwgazowa": "tak",
-                        "kamizelka": "tak",
-                        "helm": "tak",
-                        "noktowizor": "nie",
-                        "calownik laserowy": "nie",
-                        "hws": "tak",
-                        "latarka": "tak",
-                        "lopatka": "tak",
-                        "plecak medyczny": "nie",
-                        "okulary": "tak",
-                        "lornetka": "nie"
-                        }
-                    ]
+                "wyposazenie": "pelne",
+                "amunicja": 4
                 },
             
                 {
@@ -95,33 +72,8 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "niezaszczepiony",
                 "id_karty": 3184,
-                "amunicja": 8,
-                "image": "https://i.iplsc.com/zeby-zostac-snajperem-trzeba-miec-specjalne-predyspozycje/0003S9SIMAKX3MWM-C122-F4.jpg",
-                "adres":[    
-                        {
-                        "ulica": "Misiowa",
-                        "numer bloku": "24",
-                        "numer mieszkania": "44",
-                        "kod pocztowy": "16-146",
-                        "miejscowosc": "Sieradz",
-                        "dlugosc geograficzna": "74.8714",
-                        "szerokosc geograficzna": "71.2545",
-                        }
-						],
-                "wyposazenie":[    
-                        {
-                        "maska przeciwgazowa": "nie",
-                        "kamizelka": "tak",
-                        "helm": "tak",
-                        "noktowizor": "tak",
-                        "calownik laserowy": "tak",
-                        "hws": "tak",
-                        "latarka": "tak",
-                        "lopatka": "nie",
-                        "plecak medyczny": "nie",
-                        "okulary": "tak",
-                        "lornetka": "tak"
-                        }]    
+                "wyposazenie": "brak maski",
+                "amunicja": 8
                 },
             
                 {
@@ -134,32 +86,8 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "niezaszczepiony",
                 "id_karty": 6183,
-                "amunicja": 7,
-                "image": "https://lh3.googleusercontent.com/proxy/L3zr1kgt-q5Nm2bet28BLgjU0LKAZsDPW-9oO5W7jySFHi7V5-oQFi-hFTglREnTE9zNR7QPAsbp-WJyV0LKcIwjfEfvd2YnsWZGK32LrveU",
-                "adres":[    
-                        {
-                        "ulica": "Sloneczna",
-                        "numer bloku": "1",
-                        "numer mieszkania": "4",
-                        "kod pocztowy": "16-888",
-                        "miejscowosc": "Radzymin",
-                        "dlugosc geograficzna": "74.2145",
-                        "szerokosc geograficzna": "71.5412",
-                        }],
-                "wyposazenie":[    
-                        {
-                        "maska przeciwgazowa": "tak",
-                        "kamizelka": "tak",
-                        "helm": "tak",
-                        "noktowizor": "tak",
-                        "calownik laserowy": "nie",
-                        "hws": "tak",
-                        "latarka": "tak",
-                        "lopatka": "nie",
-                        "plecak medyczny": "nie",
-                        "okulary": "tak",
-                        "lornetka": "nie"
-                        }]        
+                "wyposazenie": "pelne",
+                "amunicja": 7
                 },
             
                 {
@@ -172,32 +100,8 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 9416,
-                "amunicja": 3,
-                "image": "https://lh3.googleusercontent.com/proxy/ypS66l-zFGBDGpA35xCoDPUnXJq_0iYfsWchSzZY1yy6SbGWnR1BabrJ0yzansiaABJ-elrPp8834-SucDvujcMoXhAF2Kz906XA7f4_SWRL", 
-                "adres":[    
-                        {
-                        "ulica": "Waszyngotna",
-                        "numer bloku": "16",
-                        "numer mieszkania": "21",
-                        "kod pocztowy": "19-741",
-                        "miejscowosc": "Radom",
-                        "dlugosc geograficzna": "74.8788",
-                        "szerokosc geograficzna": "71.5453",
-                        }],
-                "wyposazenie":[    
-                        {
-                        "maska przeciwgazowa": "tak",
-                        "kamizelka": "tak",
-                        "helm": "tak",
-                        "noktowizor": "tak",
-                        "calownik laserowy": "nie",
-                        "hws": "nie",
-                        "latarka": "tak",
-                        "lopatka": "nie",
-                        "plecak medyczny": "tak",
-                        "okulary": "tak",
-                        "lornetka": "nie"
-                        }]           
+                "wyposazenie": "pelne",
+                "amunicja": 3
                 },
             
                 {
@@ -210,32 +114,8 @@
                 "status_medyczny": "chory",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 5722,
-                "amunicja": 14,
-                "image": "https://www.milmag.pl/files/news/photos/0/12/wp-ukm-2000.jpg",
-                "adres":[    
-                        {
-                        "ulica": "Wilimowskiego",
-                        "numer bloku": "19",
-                        "numer mieszkania": "84",
-                        "kod pocztowy": "24-633",
-                        "miejscowosc": "Warszawa",
-                        "dlugosc geograficzna": "74.4133",
-                        "szerokosc geograficzna": "71.5631",
-                        }],
-                "wyposazenie":[    
-                        {
-                        "maska przeciwgazowa": "nie",
-                        "kamizelka": "tak",
-                        "helm": "tak",
-                        "noktowizor": "tak",
-                        "calownik laserowy": "nie",
-                        "hws": "tak",
-                        "latarka": "nie",
-                        "lopatka": "tak",
-                        "plecak medyczny": "nie",
-                        "okulary": "tak",
-                        "lornetka": "tak"
-                        }]      
+                "wyposazenie": "pelne",
+                "amunicja": 14
                 },
             
                 {
@@ -248,32 +128,8 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "niezaszczepiony",
                 "id_karty": 3777,
-                "amunicja": 5,
-                "image": "https://cdn.dvidshub.net/media/thumbs/photos/0809/116713/1000x630_q95.jpg",
-                "adres":[    
-                        {
-                        "ulica": "Antoniuka",
-                        "numer bloku": "87",
-                        "numer mieszkania": "6",
-                        "kod pocztowy": "27-654",
-                        "miejscowosc": "Wejcherowo",
-                        "dlugosc geograficzna": "74.5489",
-                        "szerokosc geograficzna": "71.4125",
-                        }],
-                "wyposazenie":[    
-                        {
-                        "maska przeciwgazowa": "nie",
-                        "kamizelka": "tak",
-                        "helm": "tak",
-                        "noktowizor": "tak",
-                        "calownik laserowy": "tak",
-                        "hws": "tak",
-                        "latarka": "nie",
-                        "lopatka": "nie",
-                        "plecak medyczny": "nie",
-                        "okulary": "tak",
-                        "lornetka": "tak"
-                        }]    
+                "wyposazenie": "pelne",
+                "amunicja": 5
                 },
              
                 {
@@ -286,32 +142,8 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 7755,
-                "amunicja": 10,
-                "image": "https://lh3.googleusercontent.com/proxy/PHY1TYB7KH0U6haKRc9QmRaksl-Rxw_AiD5OwdtTTUlz_95_ukcUepcJAuKX-xpnlx-2iJFLXNeQ00XPnCcwLDQ3apFxwQhQLwVJhGt5omVR",
-                "adres":[    
-                        {
-                        "ulica": "Kopernika",
-                        "numer bloku": "2",
-                        "numer mieszkania": "34",
-                        "kod pocztowy": "46-874",
-                        "miejscowosc": "Bialystok",
-                        "dlugosc geograficzna": "77.5321",
-                        "szerokosc geograficzna": "87.6512",
-                        }],
-                "wyposazenie":[    
-                        {
-                        "maska przeciwgazowa": "nie",
-                        "kamizelka": "nie",
-                        "helm": "tak",
-                        "noktowizor": "nie",
-                        "calownik laserowy": "nie",
-                        "hws": "nie",
-                        "latarka": "nie",
-                        "lopatka": "nie",
-                        "plecak medyczny": "nie",
-                        "okulary": "tak",
-                        "lornetka": "nie"
-                        }]      
+                "wyposazenie": "brak",
+                "amunicja": 10
                 },
             
                 {
@@ -324,32 +156,8 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 1536,
-                "amunicja": "brak",
-                "image": "https://d-art.ppstatic.pl/kadry/k/r/1/7e/ab/56e2a97e0479c_o_full.jpg",
-                "adres":[    
-                        {
-                        "ulica": "Petraszki",
-                        "numer bloku": "98",
-                        "numer mieszkania": "98",
-                        "kod pocztowy": "24-666",
-                        "miejscowosc": "Warszawa",
-                        "dlugosc geograficzna": "76.5882",
-                        "szerokosc geograficzna": "87.2145",
-                        }],
-                "wyposazenie":[    
-                        {
-                        "maska przeciwgazowa": "nie",
-                        "kamizelka": "nie",
-                        "helm": "nie",
-                        "noktowizor": "nie",
-                        "calownik laserowy": "nie",
-                        "hws": "nie",
-                        "latarka": "nie",
-                        "lopatka": "nie",
-                        "plecak medyczny": "nie",
-                        "okulary": "tak",
-                        "lornetka": "nie"
-                        }]        
+                "wyposazenie": "brak",
+                "amunicja": "brak"
                 },
             
                 {
@@ -362,32 +170,11 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 5523,
-                "amunicja": "4",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykHcu8yKle8_2KfboNjpD2rDe_zZJdLXqqw&usqp=CAU",
-                "adres":[    
-                        {
-                        "ulica": "Roslinna",
-                        "numer bloku": "8",
-                        "numer mieszkania": "14",
-                        "kod pocztowy": "24-555",
-                        "miejscowosc": "Warszawa",
-                        "dlugosc geograficzna": "76.5742",
-                        "szerokosc geograficzna": "87.4963",
-                        }],
-                "wyposazenie":[    
-                        {
-                        "maska przeciwgazowa": "nie",
-                        "kamizelka": "nie",
-                        "helm": "tak",
-                        "noktowizor": "nie",
-                        "calownik laserowy": "nie",
-                        "hws": "nie",
-                        "latarka": "nie",
-                        "lopatka": "nie",
-                        "plecak medyczny": "nie",
-                        "okulary": "nie",
-                        "lornetka": "nie"
-                        }]      
+                "wyposazenie": "brak",
+                "amunicja": "4"
                 }
+        
+            
         ]
+    
 }
