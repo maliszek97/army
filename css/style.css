@@ -39,10 +39,12 @@ img{max-width: 100%;}
     }
  .karta{
      padding:40px;
-     border-top:none;
-     border-right:none;
-     border-left:none;
+     border:none;
     }
+ .card-body{
+      padding-bottom: 40px; 
+      border-bottom: 1px solid #000;
+    }  
 }
 
 .przycisk{text-align: center;}
