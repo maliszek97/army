@@ -52,10 +52,7 @@
                 "status_medyczny": "chory",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 1426,
-                "amunicja": 4,
-                "image": "https://i.wpimg.pl/2000x0/d.wpimg.pl/1360009998-764845042/saper.jpg"  
-              
-                    
+                "amunicja": 4
                 },
             
                 {
@@ -68,9 +65,7 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "niezaszczepiony",
                 "id_karty": 3184,
-                "amunicja": 8,
-                "image": "https://i.iplsc.com/zeby-zostac-snajperem-trzeba-miec-specjalne-predyspozycje/0003S9SIMAKX3MWM-C122-F4.jpg"
-                
+                "amunicja": 8
                 },
             
                 {
@@ -83,9 +78,7 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "niezaszczepiony",
                 "id_karty": 6183,
-                "amunicja": 7,
-                "image": "https://www.wojsko-polskie.pl/u/78/9d/789d6b90-8ab7-45d6-8a47-0e628b1a02ce/radio3.jpg"
-                
+                "amunicja": 7
                 },
             
                 {
@@ -98,9 +91,7 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 9416,
-                "amunicja": 3,
-                "image": "https://silentheroes.pl/wp-content/uploads/2020/09/65638.jpg" 
-               
+                "amunicja": 3
                 },
             
                 {
@@ -113,9 +104,7 @@
                 "status_medyczny": "chory",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 5722,
-                "amunicja": 14,
-                "image": "https://www.milmag.pl/files/news/photos/0/12/wp-ukm-2000.jpg"
-               
+                "amunicja": 14
                 },
             
                 {
@@ -128,9 +117,7 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "niezaszczepiony",
                 "id_karty": 3777,
-                "amunicja": 5,
-                "image": "https://cdn.dvidshub.net/media/thumbs/photos/0809/116713/1000x630_q95.jpg"
-               
+                "amunicja": 5
                 },
              
                 {
@@ -143,9 +130,7 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 7755,
-                "amunicja": 10,
-                "image": "https://www.milmag.pl/files/news/photos/4/4111/podlwot_lmp2017_01.jpg"
-                
+                "amunicja": 10
                 },
             
                 {
@@ -158,9 +143,7 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 1536,
-                "amunicja": "brak",
-                "image": "https://d-art.ppstatic.pl/kadry/k/r/1/7e/ab/56e2a97e0479c_o_full.jpg"
-                    
+                "amunicja": "brak"
                 },
             
                 {
@@ -173,8 +156,7 @@
                 "status_medyczny": "zdrowy",
                 "status_zaszczepienia": "zaszczepiony",
                 "id_karty": 5523,
-                "amunicja": "4",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykHcu8yKle8_2KfboNjpD2rDe_zZJdLXqqw&usqp=CAU"
+                "amunicja": "4" 
                  
                 }
         ]
