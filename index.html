@@ -15,7 +15,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <h1>2</h1> 
+  <h1>1</h1> 
   
 <div class="container">
     <div class="soldiers">Total Users</div>
@@ -57,9 +57,15 @@
                         <div class="collapse" id="sadres1">
                             <div class="card card-body adres1"></div>
                         </div>
+                        <p class="przycisk">
+                            <a class="btn btn-primary" data-toggle="collapse" href="#swyposazenie1" role="button" aria-expanded="false" aria-controls="collapseExample">Wyposażenie</a>
+                        </p>
+                        <div class="collapse" id="swyposazenie">
+                            <div class="card card-body wyposazenie1"></div>
+                        </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
                     </div>
                 </div>
             </div>
@@ -151,10 +157,14 @@
   $("#s18").append(data.druzyna[0].id_karty);
   $("#s19").append(data.druzyna[0].amunicja);
   $(".adres1").append(data.druzyna[0].adres.ulica);                       
-    $.each(data.druzyna[0].adres, function(i, value){
+  $.each(data.druzyna[0].adres, function(i, value){
     $(".adres1").append('<p>ul. ' + value.ulica + ' ' + value.numer_bloku + '/' + value.numer_mieszkania + '<br />' + value.kod_pocztowy + ' ' + value.miejscowosc +'<br />' +
-                       '<strong>Koordynaty</strong><br />' + value.dlugosc_geograficzna + ', ' + value.szerokosc_geograficzna);
-  })                     
+                       '<strong>Koordynaty:</strong><br />' + value.dlugosc_geograficzna + ', ' + value.szerokosc_geograficzna);
+  })
+  $.each(data.druzyna[0].wyposazenie, function(i, value){
+    $(".wyposazenie1").append('<p>Maska przeciwgazowa --- ' + value.maska_przeciwgazowa + '</p>' + '<p>Kamizelka --- ' + value.kamizelka + '</p>' + 
+                             '<p>Hełm --- ' + value.helm + '</p>' + '<p>Noktowizor --- ' + value.noktowizor + '</p>' + '<p>Celownik laserowy --- ' + value.celownik_laserowy + '</p>' + '<p>HWS --- ' + value.kws + '</p>' + '<p>Latarka --- ' + value.latarka + '</p>' + '<p>Łoparka piechoty --- ' + value.lopatka + '</p>' + '<p>Plecak medyczny --- ' + value.plecak_medyczny + '</p>' + '<p>Okulary --- ' + value.okulary + '</p>' + '<p>Lornetka --- ' + value.lornetka + '</p>');
+  })                       
                        
                        
   $(".soldier2").append(data.druzyna[1].stanowisko);
