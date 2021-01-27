@@ -17,25 +17,25 @@
                 "adres":[    
                         {
                         "ulica": "Broniewicza",
-                        "numer bloku": "16",
-                        "numer mieszkania": "42",
-                        "kod pocztowy": "16-224",
+                        "numer_bloku": "16",
+                        "numer_mieszkania": "42",
+                        "kod_pocztowy": "16-224",
                         "miejscowosc": "Warszawa",
-                        "dlugosc geograficzna": "21.5555",
-                        "szerokosc geograficzna": "77.2142"
+                        "dlugosc_geograficzna": "21.5555",
+                        "szerokosc_geograficzna": "77.2142"
                         }
                     ],
                 "wyposazenie":[    
                         {
-                        "maska przeciwgazowa": "tak",
+                        "maska_przeciwgazowa": "tak",
                         "kamizelka": "tak",
                         "helm": "tak",
                         "noktowizor": "tak",
-                        "calownik laserowy": "tak",
+                        "calownik_laserowy": "tak",
                         "hws": "tak",
                         "latarka": "tak",
                         "lopatka": "nie",
-                        "plecak medyczny": "nie",
+                        "plecak_medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "tak"
                         }
@@ -45,7 +45,7 @@
             
             
                 {
-                "stanowisko": "saper",    
+                "stanowisko": "Saper",    
                 "nazwa_operacyjna": "Bomba",
                 "dlugosc_sluzby": 4,
                 "natychmiastowa_gotowosc": "nie",
@@ -59,24 +59,24 @@
                 "adres":[    
                         {
                         "ulica": "Ochockiego",
-                        "numer bloku": "2",
-                        "numer mieszkania": "41",
-                        "kod pocztowy": "16-888",
+                        "numer_bloku": "2",
+                        "numer_mieszkania": "41",
+                        "kod_pocztowy": "16-888",
                         "miejscowosc": "Radzymin",
-                        "dlugosc geograficzna": "21.5555",
-                        "szerokosc geograficzna": "77.2142"
+                        "dlugosc_geograficzna": "21.5555",
+                        "szerokosc_geograficzna": "77.2142"
                         }],
                 "wyposazenie":[    
                         {
-                        "maska przeciwgazowa": "tak",
+                        "maska_przeciwgazowa": "tak",
                         "kamizelka": "tak",
                         "helm": "tak",
                         "noktowizor": "nie",
-                        "calownik laserowy": "nie",
+                        "calownik_laserowy": "nie",
                         "hws": "tak",
                         "latarka": "tak",
                         "lopatka": "tak",
-                        "plecak medyczny": "nie",
+                        "plecak_medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "nie"
                         }]
@@ -84,7 +84,7 @@
                 },
             
                 {
-                "stanowisko": "strzlec",    
+                "stanowisko": "Strzlec",    
                 "nazwa_operacyjna": "Pocisk",
                 "dlugosc_sluzby": 9,
                 "natychmiastowa_gotowosc": "tak",
@@ -98,31 +98,31 @@
                 "adres":[    
                         {
                         "ulica": "Misiowa",
-                        "numer bloku": "24",
-                        "numer mieszkania": "44",
-                        "kod pocztowy": "16-146",
+                        "numer_bloku": "24",
+                        "numer_mieszkania": "44",
+                        "kod_pocztowy": "16-146",
                         "miejscowosc": "Sieradz",
-                        "dlugosc geograficzna": "74.8714",
-                        "szerokosc geograficzna": "71.2545"
+                        "dlugosc_geograficzna": "74.8714",
+                        "szerokosc_geograficzna": "71.2545"
                         }],
                 "wyposazenie":[    
                         {
-                        "maska przeciwgazowa": "nie",
+                        "maska_przeciwgazowa": "nie",
                         "kamizelka": "tak",
                         "helm": "tak",
                         "noktowizor": "tak",
-                        "calownik laserowy": "tak",
+                        "calownik_laserowy": "tak",
                         "hws": "tak",
                         "latarka": "tak",
                         "lopatka": "nie",
-                        "plecak medyczny": "nie",
+                        "plecak_medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "tak"
                         } ]   
                 },
             
                 {
-                "stanowisko": "radiotelefonista",    
+                "stanowisko": "Radiotelefonista",    
                 "nazwa_operacyjna": "Kolombo",
                 "dlugosc_sluzby": 3,
                 "natychmiastowa_gotowosc": "tak",
@@ -135,32 +135,32 @@
                 "image": "https://www.wojsko-polskie.pl/u/78/9d/789d6b90-8ab7-45d6-8a47-0e628b1a02ce/radio3.jpg",
                 "adres":[    
                         {
-                        "ulica": "Sloneczna",
-                        "numer bloku": "1",
-                        "numer mieszkania": "4",
-                        "kod pocztowy": "16-888",
+                        "ulica": "Słoneczna",
+                        "numer_bloku": "1",
+                        "numer_mieszkania": "4",
+                        "kod_pocztowy": "16-888",
                         "miejscowosc": "Radzymin",
-                        "dlugosc geograficzna": "74.2145",
-                        "szerokosc geograficzna": "71.5412"
+                        "dlugosc_geograficzna": "74.2145",
+                        "szerokosc_geograficzna": "71.5412"
                         }],
                 "wyposazenie":[    
                         {
-                        "maska przeciwgazowa": "tak",
+                        "maska_przeciwgazowa": "tak",
                         "kamizelka": "tak",
                         "helm": "tak",
                         "noktowizor": "tak",
-                        "calownik laserowy": "nie",
+                        "calownik_laserowy": "nie",
                         "hws": "tak",
                         "latarka": "tak",
                         "lopatka": "nie",
-                        "plecak medyczny": "nie",
+                        "plecak_medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "nie"
                         }]        
                 },
             
                 {
-                "stanowisko": "medyk",    
+                "stanowisko": "Medyk",    
                 "nazwa_operacyjna": "House",
                 "dlugosc_sluzby": 1,
                 "natychmiastowa_gotowosc": "tak",
@@ -173,32 +173,32 @@
                 "image": "https://silentheroes.pl/wp-content/uploads/2020/09/65638.jpg", 
                 "adres":[    
                         {
-                        "ulica": "Waszyngotna",
-                        "numer bloku": "16",
-                        "numer mieszkania": "21",
-                        "kod pocztowy": "19-741",
+                        "ulica": "Waszyngtona",
+                        "numer_bloku": "16",
+                        "numer_mieszkania": "21",
+                        "kod_pocztowy": "19-741",
                         "miejscowosc": "Radom",
-                        "dlugosc geograficzna": "74.8788",
-                        "szerokosc geograficzna": "71.5453"
+                        "dlugosc_geograficzna": "74.8788",
+                        "szerokosc_geograficzna": "71.5453"
                         }],
                 "wyposazenie":[    
                         {
-                        "maska przeciwgazowa": "tak",
+                        "maska_przeciwgazowa": "tak",
                         "kamizelka": "tak",
                         "helm": "tak",
                         "noktowizor": "tak",
-                        "calownik laserowy": "nie",
+                        "calownik_laserowy": "nie",
                         "hws": "nie",
                         "latarka": "tak",
                         "lopatka": "nie",
-                        "plecak medyczny": "tak",
+                        "plecak_medyczny": "tak",
                         "okulary": "tak",
                         "lornetka": "nie"
                         }]           
                 },
             
                 {
-                "stanowisko": "ciezki",    
+                "stanowisko": "Ciężki",    
                 "nazwa_operacyjna": "Sieka",
                 "dlugosc_sluzby": 4,
                 "natychmiastowa_gotowosc": "nie",
@@ -212,31 +212,31 @@
                 "adres":[    
                         {
                         "ulica": "Wilimowskiego",
-                        "numer bloku": "19",
-                        "numer mieszkania": "84",
-                        "kod pocztowy": "24-633",
+                        "numer_bloku": "19",
+                        "numer_mieszkania": "84",
+                        "kod_pocztowy": "24-633",
                         "miejscowosc": "Warszawa",
-                        "dlugosc geograficzna": "74.4133",
-                        "szerokosc geograficzna": "71.5631"
+                        "dlugosc_geograficzna": "74.4133",
+                        "szerokosc_geograficzna": "71.5631"
                         }],
                 "wyposazenie":[    
                         {
-                        "maska przeciwgazowa": "nie",
+                        "maska_przeciwgazowa": "nie",
                         "kamizelka": "tak",
                         "helm": "tak",
                         "noktowizor": "tak",
-                        "calownik laserowy": "nie",
+                        "calownik_laserowy": "nie",
                         "hws": "tak",
                         "latarka": "nie",
                         "lopatka": "tak",
-                        "plecak medyczny": "nie",
+                        "plecak_medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "tak"
                         }]      
                 },
             
                 {
-                "stanowisko": "qrf",    
+                "stanowisko": "QRF",    
                 "nazwa_operacyjna": "Szybki",
                 "dlugosc_sluzby": 9,
                 "natychmiastowa_gotowosc": "tak",
@@ -250,31 +250,31 @@
                 "adres":[    
                         {
                         "ulica": "Antoniuka",
-                        "numer bloku": "87",
-                        "numer mieszkania": "6",
-                        "kod pocztowy": "27-654",
+                        "numer_bloku": "87",
+                        "numer_mieszkania": "6",
+                        "kod_pocztowy": "27-654",
                         "miejscowosc": "Wejcherowo",
-                        "dlugosc geograficzna": "74.5489",
-                        "szerokosc geograficzna": "71.4125"
+                        "dlugosc_geograficzna": "74.5489",
+                        "szerokosc_geograficzna": "71.4125"
                         }],
                 "wyposazenie":[    
                         {
-                        "maska przeciwgazowa": "nie",
+                        "maska_przeciwgazowa": "nie",
                         "kamizelka": "tak",
                         "helm": "tak",
                         "noktowizor": "tak",
-                        "calownik laserowy": "tak",
+                        "calownik_laserowy": "tak",
                         "hws": "tak",
                         "latarka": "nie",
                         "lopatka": "nie",
-                        "plecak medyczny": "nie",
+                        "plecak_medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "tak"
                         }]    
                 },
              
                 {
-                "stanowisko": "mozdzierz",    
+                "stanowisko": "Moździerz",    
                 "nazwa_operacyjna": "Rakieta",
                 "dlugosc_sluzby": 6,
                 "natychmiastowa_gotowosc": "nie",
@@ -288,31 +288,31 @@
                 "adres":[    
                         {
                         "ulica": "Kopernika",
-                        "numer bloku": "2",
-                        "numer mieszkania": "34",
-                        "kod pocztowy": "46-874",
+                        "numer_bloku": "2",
+                        "numer_mieszkania": "34",
+                        "kod_pocztowy": "46-874",
                         "miejscowosc": "Bialystok",
-                        "dlugosc geograficzna": "77.5321",
-                        "szerokosc geograficzna": "87.6512"
+                        "dlugosc_geograficzna": "77.5321",
+                        "szerokosc_geograficzna": "87.6512"
                         }],
                 "wyposazenie":[    
                         {
-                        "maska przeciwgazowa": "nie",
+                        "maska_przeciwgazowa": "nie",
                         "kamizelka": "nie",
                         "helm": "tak",
                         "noktowizor": "nie",
-                        "calownik laserowy": "nie",
+                        "calownik_laserowy": "nie",
                         "hws": "nie",
                         "latarka": "nie",
                         "lopatka": "nie",
-                        "plecak medyczny": "nie",
+                        "plecak_medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "nie"
                         }]      
                 },
             
                 {
-                "stanowisko": "operator drona",    
+                "stanowisko": "Operator drona",    
                 "nazwa_operacyjna": "Superman",
                 "dlugosc_sluzby": 15,
                 "natychmiastowa_gotowosc": "tak",
@@ -326,31 +326,31 @@
                 "adres":[    
                         {
                         "ulica": "Petraszki",
-                        "numer bloku": "98",
-                        "numer mieszkania": "98",
-                        "kod pocztowy": "24-666",
+                        "numer_bloku": "98",
+                        "numer_mieszkania": "98",
+                        "kod_pocztowy": "24-666",
                         "miejscowosc": "Warszawa",
-                        "dlugosc geograficzna": "76.5882",
-                        "szerokosc geograficzna": "87.2145"
+                        "dlugosc_geograficzna": "76.5882",
+                        "szerokosc_geograficzna": "87.2145"
                         }],
                 "wyposazenie":[    
                         {
-                        "maska przeciwgazowa": "nie",
+                        "maska_przeciwgazowa": "nie",
                         "kamizelka": "nie",
                         "helm": "nie",
                         "noktowizor": "nie",
-                        "calownik laserowy": "nie",
+                        "calownik_laserowy": "nie",
                         "hws": "nie",
                         "latarka": "nie",
                         "lopatka": "nie",
-                        "plecak medyczny": "nie",
+                        "plecak_medyczny": "nie",
                         "okulary": "tak",
                         "lornetka": "nie"
                         }]        
                 },
             
                 {
-                "stanowisko": "kierowca",    
+                "stanowisko": "Kierowca",    
                 "nazwa_operacyjna": "Walker",
                 "dlugosc_sluzby": 2,
                 "natychmiastowa_gotowosc": "tak",
@@ -363,25 +363,25 @@
                 "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQykHcu8yKle8_2KfboNjpD2rDe_zZJdLXqqw&usqp=CAU",
                 "adres":[    
                         {
-                        "ulica": "Roslinna",
-                        "numer bloku": "8",
-                        "numer mieszkania": "14",
-                        "kod pocztowy": "24-555",
+                        "ulica": "Roślinna",
+                        "numer_bloku": "8",
+                        "numer_mieszkania": "14",
+                        "kod_pocztowy": "24-555",
                         "miejscowosc": "Warszawa",
-                        "dlugosc geograficzna": "76.5742",
-                        "szerokosc geograficzna": "87.4963"
+                        "dlugosc_geograficzna": "76.5742",
+                        "szerokosc_geograficzna": "87.4963"
                         }],
                 "wyposazenie":[    
                         {
-                        "maska przeciwgazowa": "nie",
+                        "maska_przeciwgazowa": "nie",
                         "kamizelka": "nie",
                         "helm": "tak",
                         "noktowizor": "nie",
-                        "calownik laserowy": "nie",
+                        "calownik_laserowy": "nie",
                         "hws": "nie",
                         "latarka": "nie",
                         "lopatka": "nie",
-                        "plecak medyczny": "nie",
+                        "plecak_medyczny": "nie",
                         "okulary": "nie",
                         "lornetka": "nie"
                         }]      
