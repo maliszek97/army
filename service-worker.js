@@ -7,7 +7,8 @@ var URLS = [
     '/index.html',
     '/js/index.js',
     '/css/style.css',
-    '/icon/192.png'
+    '/icon/192.png',
+    'https://my-json-server.typicode.com/maliszek97/json-server/db'
 ];
 self.addEventListener('fetch', function (e) {
   console.log('fetch request : ' + e.request.url)
