@@ -4,8 +4,7 @@ var URLS = [                            // Add URL you want to cache in this lis
   '/maliszek97.github.io/js/index.js',
   '/maliszek97.github.io/css/style.js',
   '/maliszek97.github.io/icon/192.png',
-  '/maliszek97.github.io/icon/army-icon.jpg',
-  'https://my-json-server.typicode.com/maliszek97/json-server/db'      
+  '/maliszek97.github.io/icon/army-icon.jpg'     
 ]
 
 // Respond with cached resources
