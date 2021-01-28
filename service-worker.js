@@ -5,6 +5,7 @@ const MY_FILES = [
         '/js/index.js',
         '/icon/192.png'
         '/icon/army-icon.jpg'
+        'https://my-json-server.typicode.com/maliszek97/json-server/db'
 ];
 
 self.addEventListener('install', function(event) {
