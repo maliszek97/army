@@ -20,19 +20,19 @@ img{max-width: 100%;}
 
 @media screen and (min-width: 992px){
 .card {
-    width: 25%;
+    width: 24.5%;
     display: inline-block;
     }
 }
 @media screen and (min-width: 768px){
 .card {
-    width: 33.3%;
+    width: 33%;
     display: inline-block;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 767px){
 .card {
-    width: 50% !important;
+    width: 49.5% !important;
     display: inline-block;
     }
 }
