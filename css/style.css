@@ -19,29 +19,27 @@ img{max-width: 100%;}
 .karta{border: 1px solid #000; padding-bottom: 25px; margin-bottom: 20px;}
 
 @media screen and (min-width: 992px){
-.card {
+.karta {
     width: 24.5%;
     display: inline-block;
     }
 }
 @media screen and (min-width: 768px){
-.card {
+.karta {
     width: 33%;
     display: inline-block;
     }
 }
 @media screen and (min-width: 480px) and (max-width: 767px){
-.card {
+.karta {
     width: 49.5% !important;
     display: inline-block;
     }
 }
 @media screen and (max-width: 479px){
-.card {
+.karta {
     width: 100% !important;
     display: inline-block;
-    }
- .karta{
      padding:40px;
      border:none;
     }
