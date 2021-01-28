@@ -5,7 +5,8 @@ const MY_FILES = [
         '/js/index.js',
         '/icon/192.png',
         '/icon/army-icon.jpg',
-        'https://my-json-server.typicode.com/maliszek97/json-server/db'
+        'https://my-json-server.typicode.com/maliszek97/json-server/db',
+        'index.html'
 ];
 
 caches.open(MY_CACHE).then(cache => {
