@@ -57,4 +57,4 @@ img{max-width: 100%;}
 h5{font-size: 32px !important;}
 .row{text-align: center;}
 .container{padding-top: 90px; padding-bottom: 90px;}
-.btn-primary{background-color: #558451;}
+.btn-primary{background-color: #558451 !important;}
