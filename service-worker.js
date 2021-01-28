@@ -1,20 +1,22 @@
+// nazywamy nasze cache- w zmiennej będzie wygodniej
 const MY_CACHE = 'cache-name';
-
+// w tej tablicy lądują wszystkie pliki, które chcemy dodać do cache
 const MY_FILES = [
         '/css/style.css',
         '/js/index.js',
-        '/icon/192.png',
-        '/icon/army-icon.jpg',
-        'https://my-json-server.typicode.com/maliszek97/json-server/db',
-        'index.html'
+        '/icon/192.png",
+        '/icon/army-icon.jpg'
 ];
 
-caches.open(MY_CACHE).then(cache => {
-  return cache.match(evt.request).then(cacheResponse => cacheResponse || fetch(evt.request).then(networkResponse => {
-  cache.put(evt.request, networkResponse.clone());
-  return networkResponse;
-}));
-
+// instalujemy nasz service worker
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open(MY_CACHE).then(function(cache) {
+      return cache.addAll(MY_FILES);
+    })
+  );
+});
+// po aktywacji chcę skasować wszystkie cache w naszej domenie, które nie są naszym cache (to opcjonalne)
 self.addEventListener('activate', function(event) {
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
@@ -28,7 +30,7 @@ self.addEventListener('activate', function(event) {
     })
   );
 });
-
+// strategia 'Network falling back to cache'
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     fetch(event.request).catch(function() {
