@@ -2,10 +2,10 @@ var APP_PREFIX = 'druzyna'
 var VERSION = 'version_01'            
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            
-  '/maliszek97.github.io/js/index.js',
-  '/maliszek97.github.io/css/style.js',
-  '/maliszek97.github.io/icon/192.png',
-  '/maliszek97.github.io/icon/army-icon.jpg'     
+  '/js/index.js',
+  '/css/style.js',
+  '/icon/192.png',
+  '/icon/army-icon.jpg'     
 ]
 
 // Respond with cached resources
