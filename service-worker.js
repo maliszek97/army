@@ -9,13 +9,11 @@ const MY_FILES = [
         'index.html'
 ];
 
-self.addEventListener('install', function(event) {
-  event.waitUntil(
-    caches.open(MY_CACHE).then(function(cache) {
-      return cache.addAll(MY_FILES);
-    })
-  );
-});
+caches.open(MY_CACHE).then(cache => {
+  return cache.match(evt.request).then(cacheResponse => cacheResponse || fetch(evt.request).then(networkResponse => {
+  cache.put(evt.request, networkResponse.clone());
+  return networkResponse;
+}));
 
 self.addEventListener('activate', function(event) {
   event.waitUntil(
