@@ -24,9 +24,9 @@ img{max-width: 100%;}
     display: inline-block;
     }
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 991px){
 .karta {
-    width: 33%;
+    width: 32%;
     display: inline-block;
     }
 }
@@ -55,4 +55,5 @@ img{max-width: 100%;}
 .card-body{text-align: center;}
 .card-title{margin-top: 15px !important;}
 h5{font-size: 32px !important;}
+.row{text-align: center;}
 
