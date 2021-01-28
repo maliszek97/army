@@ -2,7 +2,9 @@ const MY_CACHE = 'cache-name';
 
 const MY_FILES = [
         '/css/style.css',
-        '/js/index.js'
+        '/js/index.js',
+        '/icon/192.png'
+        '/icon/army-icon.jpg'
 ];
 
 self.addEventListener('install', function(event) {
