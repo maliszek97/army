@@ -3,10 +3,9 @@ const MY_CACHE = 'cache-name';
 const MY_FILES = [
         '/css/style.css',
         '/js/index.js',
-        '/icon/192.png'
-        '/icon/army-icon.jpg'
+        '/icon/192.png',
+        '/icon/army-icon.jpg',
         'https://my-json-server.typicode.com/maliszek97/json-server/db'
-        'index.html'
 ];
 
 caches.open(MY_CACHE).then(cache => {
