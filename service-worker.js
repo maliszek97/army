@@ -1,8 +1,7 @@
-var APP_PREFIX = 'druzyna'     // Identifier for this app (this needs to be consistent across every cache update)
-var VERSION = 'version_01'              // Version of the off-line cache (change this value everytime you want to update cache)
+var APP_PREFIX = 'druzyna'     
+var VERSION = 'version_01'            
 var CACHE_NAME = APP_PREFIX + VERSION
-var URLS = [                            // Add URL you want to cache in this list.
-  '/maliszek97.github.io/',                     // If you have separate JS/CSS files,
+var URLS = [                            
   '/maliszek97.github.io/js/index.js',
   '/maliszek97.github.io/css/style.js',
   '/maliszek97.github.io/icon/192.png',
