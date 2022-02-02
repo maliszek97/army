@@ -4,15 +4,15 @@ var CACHE_NAME = APP_PREFIX + VERSION
 
 var URLS = [
     '/',
-    '/index.html',
-    '/js/index.js',
-    '/css/style.css',
-    '/icon/128.png',
-    '/icon/144.png',
-    '/icon/152.png',
-    '/icon/192.png',
-    '/icon/256.png',
-    '/icon/512.png',
+    'index.html',
+    'js/index.js',
+    'css/style.css',
+    'icon/128.png',
+    'icon/144.png',
+    'icon/152.png',
+    'icon/192.png',
+    'icon/256.png',
+    'icon/512.png',
     'https://my-json-server.typicode.com/maliszek97/json-server/db'
 ];
 self.addEventListener('fetch', function (e) {
