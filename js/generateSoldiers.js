@@ -1,13 +1,7 @@
-function generateSoliers(jsonSrc){
-    $.getJSON(jsonSrc), function(data){
-        let soldierId = [];
-        let soldierNum = Object.keys(data.druzyna).length;
-        let x = 4;
-        console.log(x);
-        // console.log(soldierNum);
+function getJson(jsonFile){
+    $.getJson("jsonFile"), function(data){
+        $(".soldier1").append(data.druzyna[0].stanowisko);
     }
 }
 
-$(document).ready(function(){
-    generateSoliers("https://my-json-server.typicode.com/maliszek97/json-server/db");
-})
+$(document).ready(getJson("https://my-json-server.typicode.com/maliszek97/json-server/db"));
